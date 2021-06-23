@@ -1,1 +1,4 @@
 default: --publish-quiet
+html: --format html --out=log/features.html
+dot: --format progress
+bdd: --format pretty
